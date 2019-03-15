@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact name="GluttonousSnake:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GluttonousSnake_jar</output-path>
+    <root id="root">
+      <element id="archive" name="GluttonousSnake.jar">
+        <element id="module-output" name="GluttonousSnake" />
+      </element>
+      <element id="directory" name="lib" />
+    </root>
+  </artifact>
+</component>
