@@ -66,7 +66,7 @@ public class Snake {
         } else if ("s".equalsIgnoreCase(handle)) {
 
             if (headNode.getY() == Game.HEIGHT_MAX - 1) return;
-            if (secNode.getY() > headNode.getX()) return;
+            if (secNode.getY() > headNode.getY()) return;
             if ((headNode.getY() == foodNode.getY() - 1) && (headNode.getX() == foodNode.getX())) {
                 this.linkedList.addFirst(foodNode);
                 return;
